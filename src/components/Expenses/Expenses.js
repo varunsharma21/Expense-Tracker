@@ -6,7 +6,7 @@ import "./Expenses.css";
 import ExpensesChart from "./ExpensesChart";
 
 function Expenses(props) {
-  const [year, setYear] = useState("2020");
+  const [year, setYear] = useState("2020"); // Expenses of 2020 will be shown when page first loads.
 
   const yearGetterHandler = (year) => {
     setYear(year);
